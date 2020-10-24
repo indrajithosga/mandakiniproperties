@@ -1,0 +1,231 @@
+<aside class="main-sidebar">
+    <!-- sidebar: style can be found in sidebar.less -->
+    <section class="sidebar">
+
+
+
+        <div class="user-panel">
+            <div class="pull-left image">
+              
+            </div>
+            <div class="pull-left info">
+                <p style="font-weight: normal;color: #cccccc"> <small> </small></p>
+
+            </div>
+        </div>
+
+
+
+        <!-- /.search form -->
+        <!-- sidebar menu: : style can be found in sidebar.less -->
+        <ul class="sidebar-menu">
+            <li class="header">MAIN NAVIGATION</li>
+
+            <li class="treeview">
+                <a href="../Dashboard/DashBoard.jsp">
+                    <i class="glyphicon glyphicon-dashboard"></i> <span>Dashboard</span> <i class="fa fa-angle-left pull-right"></i>
+                </a>
+                <!--  <ul class="treeview-menu">
+                      <li><a href="index2.jsp"><i class="fa fa-circle-o"></i>   Add user </a></li>
+                      <li class="active"><a href="viewUser.jsp"><i class="fa fa-circle-o"></i> View User</a></li>
+                  </ul>-->
+            </li>
+            
+             <li class="glyphicon-folder-open">
+                <a href="../Centre/Addcentre.jsp">
+                    <i class="glyphicon glyphicon-credit-card"></i>
+                    <span>CashCollecting Management</span>
+                    <span class="label label-primary pull-right"></span>
+                </a>
+                <ul class="treeview-menu">
+                    <li><a href="../CashCollecting/AddCashCollect.jsp"><i class="fa fa-circle-o"></i> Add Cash Collection</a></li>
+                    <li class="active"><a href="../CashCollecting/ViewCashCollect.jsp"><i class="fa fa-circle-o"></i> View Cash Collecting</a></li>
+                    
+
+                </ul>
+            </li>
+                                  
+            <li class="glyphicon-folder-open">
+                <a href="#">
+                    <i class="glyphicon glyphicon-dashboard"></i>
+                    <span>Expenses Management</span>
+                    <span class="fa fa-angle-left pull-right"></span>
+                </a>
+                <ul class="treeview-menu">
+                    <li><a href="../Expenses/AddExpenses.jsp"><i class="fa fa-circle-o"></i> Add Expenses</a></li>
+                    <li><a href="../Expenses/ViewExpenses.jsp"><i class="fa fa-circle-o"></i> View Expenses</a></li>
+
+                </ul>
+            </li>
+
+            <li class="glyphicon-folder-open">
+                <a href="#">
+                    <i class="glyphicon glyphicon-time"></i>
+                    <span>Expenses Allocation</span>
+                    <span class="label label-primary pull-right"></span>
+                </a>
+                <ul class="treeview-menu">
+                    <li><a href="../Expenses Allocation/AddExpensesAllocation.jsp"><i class="fa fa-circle-o"></i> Add ExpensesAllocation</a></li>
+                    <li><a href="../Expenses Allocation/ViewExpensesAllocation.jsp"><i class="fa fa-circle-o"></i> View ExpensesAllocation</a></li>
+
+                </ul>
+            </li>
+            
+            <li class="glyphicon-folder-open">
+                <a href="#">
+                    <i class="glyphicon glyphicon-user"></i>
+                    <span >Budget Allocation</span>
+                    <i class="fa fa-angle-left pull-right"></i>
+                </a>
+                <ul class="treeview-menu">
+                    <li><a href="../Budgets/AddBudget.jsp"><i class="fa fa-circle-o"></i>Add BudgetAllocation</a></li>
+
+                    <li><a href="../Budgets/ViewBudget.jsp"><i class="fa fa-circle-o"></i> View BudgetAllocation</a></li>
+           <!--          <li><a href="../Runner/RaeByRunner.jsp"><i class="fa fa-circle-o"></i> RaeByRunner</a></li> -->
+                 
+                </ul>
+            </li>
+
+            <li class="glyphicon-folder-open">
+                <a href="../TimeBag/CollectTimeBag.jsp">
+                    <i class="glyphicon glyphicon-briefcase"></i>
+                    <span>Project Management</span>
+                    <span class="label label-primary pull-right"></span>
+                </a>
+                <ul class="treeview-menu">
+                    <li><a href="../Projects/AddProject.jsp"><i class="fa fa-circle-o"></i> Add Project</a></li>
+                    <li class="active"><a href="../Projects/ViewProjects.jsp"><i class="fa fa-circle-o"></i> View Projects</a></li>
+
+                </ul>
+            </li>
+         
+                       
+            
+            
+            <li class="glyphicon-folder-open">
+                <a href="#">
+                    <i class="glyphicon glyphicon-usd"></i>
+                    <span >Invoice</span>
+                    <span class="label label-primary pull-right"></span>
+                </a>
+                <ul class="treeview-menu">
+                    <li><a href="../Cash/Test.jsp"><i class="fa fa-circle-o"></i>Make Invoice</a></li>
+                    <li><a href="../Cash/GeneralCashDetails.jsp"><i class="fa fa-circle-o"></i>View Invoice</a></li>
+
+                </ul>
+            </li>
+            
+            <li class="glyphicon-folder-open">
+                <a href="../Customers/AddCustomer.jsp">
+                    <i class="glyphicon glyphicon-credit-card"></i>
+                    <span>Customer Management</span>
+                    <span class="label label-primary pull-right"></span>
+                </a>
+                <ul class="treeview-menu">
+                    <li><a href="../Customers/AddCustomer.jsp"><i class="fa fa-circle-o"></i> Add Customer</a></li>
+                    <li class="active"><a href="../Customers/ViewCustomers.jsp"><i class="fa fa-circle-o"></i> View Customers</a></li>
+                    
+
+                </ul>
+            </li>
+            
+            <li class="glyphicon-folder-open">
+                <a href="#">
+                    <i class="glyphicon glyphicon-user"></i> <span>User Management</span> <i class="fa fa-angle-left pull-right"></i>
+                </a>
+                <ul class="treeview-menu">
+                    <li><a href="../User/AddUser.jsp"><i class="fa fa-circle-o"></i>   Add user </a></li>
+                    <li class="active"><a href="../User/ViewUser.jsp"><i class="fa fa-circle-o"></i> View User</a></li>
+                </ul>
+            </li>
+            
+            
+            <li class="glyphicon-folder-open">
+                <a href="#">
+                    <i class="glyphicon glyphicon-folder-open"></i>
+                    <span >SalesRep Management</span>
+                    <span class="label label-primary pull-right"></span>
+                </a>
+                <ul class="treeview-menu">
+                    <li><a href="../SalesRep/AddSalesRep.jsp"><i class="fa fa-circle-o"></i>Add SalesRep</a></li>
+                    <li><a href="../SalesRep/ViewSalesRep.jsp"><i class="fa fa-circle-o"></i> View SalesRep</a></li>
+<!--                     <li><a href="../Account/AddAccountCategory.jsp"><i class="fa fa-circle-o"></i> Add Account Category</a></li> -->
+<!--                     <li><a href="../Account/ViewAccountCategory.jsp"><i class="fa fa-circle-o"></i> View Account Categories</a></li> -->
+                </ul>
+            </li>
+            
+            <li class="glyphicon-folder-open">
+                <a href="#">
+                    <i class="glyphicon glyphicon-bookmark"></i>
+                    <span>Supplier Management</span>
+                    <span class="label label-primary pull-right"></span>
+                </a>
+                <ul class="treeview-menu">
+                    <li><a href="../Suppliers/AddSupplier.jsp"><i class="fa fa-circle-o"></i> Add Supplier</a></li>
+                    <li class="active"><a href="../Suppliers/ViewSuppliers.jsp"><i class="fa fa-circle-o"></i> View Suppliers</a></li>
+
+                </ul>
+            </li>
+            
+               <li class="glyphicon-folder-open">
+                <a href="#">
+                    <i class="glyphicon glyphicon-cog"></i>
+                    <span >Summery Management</span> 
+                    <span class="label label-primary pull-right"></span>
+                </a>
+                <ul class="treeview-menu">
+                    <li><a href="../Summery/AddChit.jsp"><i class="fa fa-circle-o"></i>Create summery</a></li>
+                    <!--  <li><a href="../Summery/UpdateSummery.jsp"><i class="fa fa-circle-o"></i>Create summery</a></li>-->
+                    <li><a href="../Summery/viewSummery.jsp"><i class="fa fa-circle-o"></i> View summery</a></li>
+                    <li><a href="../Summery/GeneralSummery.jsp"><i class="fa fa-circle-o"></i> General summery</a></li>
+                    <!-- <li><a href="../Summery/UbdateSummeryBody.jsp"><i class="fa fa-circle-o"></i> General summery</a></li>-->
+                </ul>
+            </li>
+            
+            <li class="glyphicon-folder-open">
+                <a href="#">
+                    <i class="glyphicon glyphicon-signal"></i>
+                    <span >Reports</span> <label class="badge info" style="height: 17px;background-color: #009999">04</label>
+                    <span class="label label-primary pull-right"></span>
+                </a>
+                <ul class="treeview-menu">
+                    <li><a href="../Reports/Snapshot.jsp"><i class="fa fa-circle-o"></i>Company snapshot</a></li>
+                    <li><a href="../Reports/profitAndLoss.jsp"><i class="fa fa-circle-o"></i>Profit and loss</a></li>
+                    <li><a href="../Reports/CenterReport.jsp"><i class="fa fa-circle-o"></i>Center repoert</a></li>
+                    <li><a href="../Reports/AgentReport.jsp"><i class="fa fa-circle-o"></i>Agent repoert</a></li>
+
+                </ul>
+            </li>
+            
+                 <li class="glyphicon-folder-open">
+                <a href="../TimeBag/CollectTimeBag.jsp">
+                    <i class="glyphicon glyphicon-briefcase"></i>
+                    <span>Timebag Management</span>
+                    <span class="label label-primary pull-right"></span>
+                </a>
+                <ul class="treeview-menu">
+                    <li><a href="../TimeBag/CollectTimeBag.jsp"><i class="fa fa-circle-o"></i>Open timebag</a></li>
+
+                    <li><a href="../TimeBag/ViewCollectTimeBags.jsp"><i class="fa fa-circle-o"></i> View timbages</a></li>
+
+                </ul>
+            </li>
+
+            
+            <li class="treeview">
+                <a href="">
+                    <i class="glyphicon glyphicon-dashboard"></i> <span>Dashboard</span> <i class="fa fa-angle-left pull-right"></i>
+                </a>
+                <!--  <ul class="treeview-menu">
+                      <li><a href="index2.jsp"><i class="fa fa-circle-o"></i>   Add user </a></li>
+                      <li class="active"><a href="viewUser.jsp"><i class="fa fa-circle-o"></i> View User</a></li>
+                  </ul>-->
+            </li>
+
+            
+        
+        </ul>
+    </section>
+    <!-- /.sidebar -->
+</aside>
+

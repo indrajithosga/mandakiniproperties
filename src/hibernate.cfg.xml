@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-configuration SYSTEM 
+"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+
+<session-factory>
+
+<property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+<property name="connection.url">jdbc:mysql://localhost:3306/mandadb</property>
+<property name="connection.username">root</property>
+<property name="connection.password">123</property>
+<property name="connection.pool_size">1</property>
+<property name="show_sql">true</property>
+<property name="cache.provider_class">org.hibernate.cache.NoCacheProvider</property>
+<property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+<property name="hbm2ddl.auto">update</property>
+<mapping class="com.manda.entity.Role"/>
+<mapping class="com.manda.entity.User"/>
+<mapping class="com.manda.entity.Supplier"/>
+<mapping class="com.manda.entity.SalesRep"/>
+<mapping class="com.manda.entity.Projects"/>
+<mapping class="com.manda.entity.ProjectCategories"/>
+<mapping class="com.manda.entity.Projects"/>
+<mapping class="com.manda.entity.Invoice"/>
+<mapping class="com.manda.entity.Expenses"/>
+<mapping class="com.manda.entity.ExpensesAllocation"/>
+<mapping class="com.manda.entity.BudgetAllocationItem"/>
+<mapping class="com.manda.entity.Customer"/>
+<mapping class="com.manda.entity.CashCollecting"/>
+<mapping class="com.manda.entity.BudgetAllocation"/>
+<mapping class="com.manda.entity.MakingTarget"/>
+
+
+
+
+</session-factory>
+
+</hibernate-configuration>
